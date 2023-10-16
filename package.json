@@ -1,0 +1,29 @@
+{
+  "name": "uniswap-v3-position-manager",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint .",
+    "prettier": "prettier . --write",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "10.18.1",
+    "viem": "1.16.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.6.0",
+    "oxlint": "0.0.13",
+    "prettier": "3.0.3",
+    "vite": "4.4.11"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": ">=8.4.31"
+    }
+  }
+}

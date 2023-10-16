@@ -1,0 +1,27 @@
+button {
+  margin: 1em 0;
+}
+
+.chains li {
+  display: block;
+}
+
+.chains li.selected:before {
+  content: '→';
+  margin-left: -1.5em;
+  padding-right: 0.5em;
+}
+
+.positions thead {
+  border-bottom: solid black 1px;
+}
+
+.positions td {
+  padding: 1em;
+}
+
+.positions .fee-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+}
