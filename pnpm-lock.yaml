@@ -896,10 +896,6 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact-hooks@0.0.0-0:
-    resolution: {integrity: sha512-QmEqbB2bwCbFmpRrbvAZ0B71VqgqemxzAhQFtqOeoqhA6uIELJKhRYwCVRO1HEQhHxEQxhK+t7AdFYoVSpACLg==}
-    dev: false
-
   /preact@10.18.1:
     resolution: {integrity: sha512-mKUD7RRkQQM6s7Rkmi7IFkoEHjuFqRQUaXamO61E6Nn7vqF/bo7EZCmSyrUnp2UWHw0O7XjZ2eeXis+m7tf4lg==}
 
