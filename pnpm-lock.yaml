@@ -11,9 +11,6 @@ dependencies:
   preact:
     specifier: 10.18.1
     version: 10.18.1
-  preact-hooks:
-    specifier: 0.0.0-0
-    version: 0.0.0-0
   viem:
     specifier: 1.16.5
     version: 1.16.5
