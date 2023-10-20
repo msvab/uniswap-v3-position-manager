@@ -8,21 +8,21 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint .",
-    "prettier": "prettier . --write",
-    "preview": "vite preview"
+    "prettier": "prettier . --write"
   },
   "dependencies": {
     "preact": "10.18.1",
-    "viem": "1.16.5"
+    "viem": "1.16.6"
   },
   "devDependencies": {
     "@preact/preset-vite": "2.6.0",
     "oxlint": "0.0.13",
     "prettier": "3.0.3",
-    "vite": "4.4.11"
+    "vite": "4.5.0"
   },
   "pnpm": {
     "overrides": {
+      "@babel/traverse": ">=7.23.2",
       "postcss": ">=8.4.31"
     }
   }
